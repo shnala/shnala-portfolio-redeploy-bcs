@@ -18,7 +18,7 @@ function App() {
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       <Banner />
 
-      <Router>
+      <Router basename={"/shnala-portfolio-redeploy-bcs"}>
         <Routes>
           <Route index element={<About />} />
           <Route path="/about" element={<About />} />
