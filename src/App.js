@@ -15,10 +15,10 @@ function App() {
 
   return (
     <main>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Banner />
 
       <Router basename={"/shnala-portfolio-redeploy-bcs"}>
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Banner />
         <Routes>
           <Route index element={<About />} />
           <Route path="/about" element={<About />} />
