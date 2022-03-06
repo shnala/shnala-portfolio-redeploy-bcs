@@ -8,10 +8,10 @@ function Navbar({ currentPage, handlePageChange }) {
         <nav className="nav">
           <h1>Shawn A. Analla</h1>
             <ul className="nav-links">
-              <li><a href="/about" onClick={() => handlePageChange('About')} className={currentPage === 'About' || '/' ? 'nav-link active' : 'nav-link'}>About Me</a></li>
-              <li><a href="/work" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a></li>
-              <li><a href="/contactus" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a></li>
-              <li><a href="/resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a></li>
+              <li><a href="/shnala-portfolio-redeploy-bcs/about" onClick={() => handlePageChange('About')} className={currentPage === 'About' || '/' ? 'nav-link active' : 'nav-link'}>About Me</a></li>
+              <li><a href="/shnala-portfolio-redeploy-bcs/work" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a></li>
+              <li><a href="/shnala-portfolio-redeploy-bcs/contactus" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a></li>
+              <li><a href="/shnala-portfolio-redeploy-bcs/resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a></li>
             </ul>
         </nav>
     );
