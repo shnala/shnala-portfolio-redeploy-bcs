@@ -21,9 +21,9 @@ function App() {
       <Router>
         <Routes>
           <Route index element={<About />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/work" element={<Portfolio />} />
-          <Route path="/contactus" element={<Contact />} />
+          <Route path="/shnala-portfolio-redeploy-bcs/about" element={<About />} />
+          <Route path="/shnala-portfolio-redeploy-bcs/work" element={<Portfolio />} />
+          <Route path="/shnala-portfolio-redeploy-bcs/contactus" element={<Contact />} />
         </Routes>
       </Router>
       <Footer />
