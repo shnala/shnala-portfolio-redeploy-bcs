@@ -1,0 +1,24 @@
+.banner {
+    position: relative;
+    background-image: url("https://placekitten.com/1700/300");
+    background-size: cover;
+    height: 300px;
+}
+
+header h1 {
+    color: white;
+    background-color: darkslategray;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+.banner h2 {
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 70px;
+    top: 60%;
+
+}

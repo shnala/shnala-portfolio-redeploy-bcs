@@ -1,0 +1,51 @@
+h1 {
+    color: white;
+    background-color: darkslategray;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: darkslategray;
+    padding: 30px;
+    font-size: 24px;
+    
+}
+
+nav ul {
+    background-color: darkslategray;
+    font-size: large;
+    margin-top: 10px;
+}
+
+nav ul li {
+    padding: 5px 20px;
+    margin: 0px 20px;
+    background-color: darkslategray;
+    border-bottom: white solid 2px;
+    color: white;
+    display: inline-block;
+
+}
+
+nav ul li:hover {
+    font-weight: bold;
+    border-bottom: white solid 3px;
+    cursor: pointer;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+}

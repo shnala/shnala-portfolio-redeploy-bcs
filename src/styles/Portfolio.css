@@ -1,0 +1,107 @@
+.work-wrapper {
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.work-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.work-wrapper a:hover {
+    border-bottom: white solid 3px;
+}
+
+.work-wrapper p {
+    padding: 10px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.work-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#projects {
+    justify-content: center;
+}
+
+.work-wrapper ul li {
+    height: 300px;
+    border: darkslategray solid 5px;
+    margin: 20px;
+    flex: 1 1 500px;
+    cursor: pointer;
+  
+}
+
+.work-wrapper ul li:hover {
+    border: darkslategray solid 7px;
+    opacity: 0.5;
+}
+
+.work-wrapper ul li h2 {
+    font-size: 20px;
+    background-color: darkslategray;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+}
+
+.work-wrapper ul a:hover{
+    color: white;
+}
+
+.sub-label {
+    font-size: 15px;
+}
+
+
+#main-card {
+    background-image: url(../../public/ponder.png);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    flex: 2 0 95%;
+    
+}
+
+
+#card2 {
+    background-image: url(../../public/daisy_portfolio.png);
+    background-size: cover;
+    position: relative;
+
+}
+
+#card2 h2 {
+    font-size: 20px;
+}
+
+#card3 {
+    background-image: url(../../public/weather_portfolio.PNG);
+    background-size: cover;
+    position: relative;
+
+}
+
+#card4 {
+    background-image: url("https://placekitten.com/400/305");
+    background-size: cover;
+    position: relative;
+
+}
+
+#card5 {
+    background-image: url("https://placekitten.com/500/300");
+    background-size: cover;
+    position: relative;
+
+}

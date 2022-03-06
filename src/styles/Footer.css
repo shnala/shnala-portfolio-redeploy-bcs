@@ -1,0 +1,29 @@
+.footer-wrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.footer-wrapper ul {
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.footer-wrapper ul li {
+    display: inline;
+    float: left;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border-bottom: darkslategray solid 3px;
+    color: black;
+}
+
+.footer-wrapper ul li:hover {
+    opacity: 50%;
+    border-bottom: darkslategray solid 6px;
+    cursor: pointer;
+}
+
+.footer-wrapper ul li a {
+    text-decoration: none;
+    color: black;
+}
