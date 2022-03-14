@@ -6,7 +6,7 @@ import '../styles/Navbar.css';
 function Navbar({ currentPage, handlePageChange }) {
     return (
         <nav className="nav">
-          <h1>Shawn A. Analla</h1>
+          <Link to ="/" className='reactLink'><h1>Shawn A. Analla</h1></Link>
             <ul className="nav-links">
               <li><Link to ="/about" onClick={() => handlePageChange('About')} className={currentPage === 'About' || '/' ? 'nav-link active' : 'nav-link'}>About Me</Link></li>
               <li><Link to ="/work" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</Link></li>

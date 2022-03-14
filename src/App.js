@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 import './styles/All.css'
 
 function App() {
@@ -24,9 +25,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Portfolio />} />
           <Route path="/contactus" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
+      <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
       </Router>
-      <Footer />
 
     </main>
   );
